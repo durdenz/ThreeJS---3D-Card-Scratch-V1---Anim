@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  #world {
+    width: 100%;
+    height: 100vh;
+  }
+
+  body {
+    margin: 0px;
+    background-color: #050505;
+    color: #fff;
+    overflow: hidden;
+  }
+
+  a {
+    color: #e00;
+  }
+
+  #info {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    color: #ffffff;
+    padding: 5px;
+    font-family: Monospace;
+    font-size: 13px;
+    text-align: center;
+    z-index: 1000;
+  }
+
+  #img-canvas {
+    position: absolute;
+    background-color: #000000;
+    top: 0px;
+    right: 0px;
+    z-index: 3000;
+    cursor: crosshair;
+  }
+
+  .jsgif {
+    display: none;
+  }
